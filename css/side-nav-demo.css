@@ -1,0 +1,121 @@
+/*------------------------------------------------------------------
+[side-nav-demo Stylesheet]
+
+Project:	Creative Agency - Multipage Html Responsive Template
+Version:	1.1
+Last change:	27/04/2017
+Primary use:	Creative Agency - Multipage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+
+.side-nav nav.divinnav.navbar-sidebar {
+    position: fixed;
+    width: 260px;
+    overflow: hidden;
+    left: 0;
+    padding: 0 0 0 0 !important;
+    background: rgba(0, 0, 0, 0.9);
+    border-right: none;
+}
+.side-nav nav.divinnav.navbar-sidebar ul.nav {
+    padding: 0 0px !important ;
+}
+.side-nav nav.divinnav.navbar-sidebar .navbar-header {
+    padding: 10px 0px;
+}
+.side-nav nav.navbar-sidebar ul.nav, .side-nav nav.navbar-sidebar .navbar-brand {
+    margin-bottom: 25px;
+}
+}
+
+.side-nav nav.navbar.divinnav ul.nav > li > a {
+    color: #fff;
+}
+
+.side-nav nav.navbar.divinnav .share ul > li > a {
+    background-color: #fff;
+    color: #000;
+}
+.side-nav nav.navbar.divinnav .share {
+    padding: 0 15px;
+}
+.side-nav ul.cart-list > li.total > .btn, .side-nav .attr-nav > ul > li > a span.badge, .side-nav nav.navbar .share ul > li > a:hover, .side-nav nav.navbar .share ul > li > a:focus {
+    background-color: #f43438;
+}
+
+.side-nav nav.navbar ul.nav li.scroll.active > a, .side-nav nav.navbar ul.nav > li > a:hover {
+    color: #fff !important;
+    background-color: #f43438 !important;
+}
+
+.side-nav .vertical-heading span {
+    color: #f43438;
+}
+.side-nav .accordionstyle_1.accordion_2 .panel .panel-heading a, .side-nav .accordionstyle_1.accordion_2 .panel .panel-heading a:hover {
+    background-color: #f43438;
+}
+.side-nav .icon_box3_simple .simple_sub_circle {
+    background: #f43438;
+}
+.side-nav #about hr {
+    background: #f43438;
+}
+.side-nav .icon_box3_simple:hover {
+    background: #f43438;
+}
+.side-nav .icon_box3_simple:hover .simple_sub_circle {
+    background: #f43438;
+}
+.side-nav .portfolioTwo .ImageWrapper .ImageOverlay {
+    background: none repeat scroll 0 0 rgba(244, 52, 56, 0.9);
+}
+.side-nav .testimonialEight .item .name {
+    color: #f43438;
+}
+.side-nav .testimonialEight .carousel .carousel-indicators .active {
+    background-color: #f43438 !important;
+}
+.side-nav .dart-headingstyle-four h5 {
+    color: #f43438;
+}
+.side-nav .fullWidthNine .feature-wrapper h5 {
+    color: #f43438;
+}
+.side-nav .fullWidthNine .feature-wrapper:hover i {
+    color: #f43438;
+}
+.side-nav .tabSix .nav-tabs>li.active>a, .side-nav .tabSix .nav-tabs>li.active>a:focus, .side-nav .tabSix .nav-tabs>li.active>a:hover, .side-nav .tabSix .nav-tabs>li>a:hover {
+    border-color: #f43438;
+}
+.side-nav .button-default {
+    background: #f43438;
+}
+.side-nav .counter-section i {
+    color: #f43438;
+}
+.side-nav .packagestyle_one:hover {
+    background: #f43438;
+}
+.side-nav .btn-link {
+    color: #f43438;
+}
+.side-nav nav.navbar.divinnav {
+    background-color: #000;
+}
+
+@media (max-width: 992px){
+.side-nav nav.navbar.divinnav .navbar-nav > li > a {
+    border-bottom: solid 1px #666;
+    border-top: solid 1px #666;
+    margin-bottom: 0px;
+}
+}
+.side-nav nav.navbar.divinnav .navbar-toggle {
+    background-color: #f43438;
+}
+
+
+
+
+

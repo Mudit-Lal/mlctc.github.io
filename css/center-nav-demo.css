@@ -1,0 +1,101 @@
+/*------------------------------------------------------------------
+[center-nav-demo Stylesheet]
+
+Project:	Creative Agency - Multipage Html Responsive Template
+Version:	1.1
+Last change:	27/04/2017
+Primary use:	Creative Agency - Multipage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+.center-nav nav.navbar.divinnav.no-background {
+    background-color: #ededed;
+    border: none;
+}
+.center-nav nav.navbar.divinnav.no-background.white ul.nav > li > a {
+    color: #000;
+}
+}
+.center-nav nav.divinnav.navbar-full .navbar-collapse .wrap-full-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.center-nav nav.navbar.divinnav ul.nav > li > a {
+    
+}
+
+.center-nav nav.navbar ul.nav li.scroll.active > a, .center-nav nav.navbar ul.nav > li > a:hover {
+    color: #fff !important;
+    background-color: #ff3d7a  !important;
+}
+
+.center-nav .vertical-heading span {
+    color: #ff3d7a ;
+}
+.center-nav .accordionstyle_1.accordion_2 .panel .panel-heading a, .center-nav .accordionstyle_1.accordion_2 .panel .panel-heading a:hover {
+    background-color: #ff3d7a ;
+}
+.center-nav .icon_box3_simple .simple_sub_circle {
+    background: #ff3d7a ;
+}
+.center-nav #about hr {
+    background: #ff3d7a ;
+}
+.center-nav .icon_box3_simple:hover {
+    background: #ff3d7a ;
+}
+.center-nav .icon_box3_simple:hover .simple_sub_circle {
+    background: #ff3d7a ;
+}
+.center-nav .portfolioTwo .ImageWrapper .ImageOverlay {
+    background: none repeat scroll 0 0 rgba(255, 61, 122, 0.9);
+}
+.center-nav .testimonialEight .item .name {
+    color: #ff3d7a ;
+}
+.center-nav .testimonialEight .carousel .carousel-indicators .active {
+    background-color: #ff3d7a  !important;
+}
+.center-nav .dart-headingstyle-four h5 {
+    color: #ff3d7a ;
+}
+.center-nav .fullWidthNine .feature-wrapper h5 {
+    color: #ff3d7a ;
+}
+.center-nav .fullWidthNine .feature-wrapper:hover i {
+    color: #ff3d7a ;
+}
+.center-nav .tabSix .nav-tabs>li.active>a, .center-nav .tabSix .nav-tabs>li.active>a:focus, .center-nav .tabSix .nav-tabs>li.active>a:hover, .center-nav .tabSix .nav-tabs>li>a:hover {
+    border-color: #ff3d7a ;
+}
+.center-nav .button-default {
+    background: #ff3d7a ;
+}
+.center-nav .counter-section i {
+    color: #ff3d7a ;
+}
+.center-nav .packagestyle_one:hover {
+    background: #ff3d7a ;
+}
+.center-nav .btn-link {
+    color: #ff3d7a ;
+}
+
+
+@media (max-width: 992px){
+.center-nav nav.navbar.divinnav .navbar-nav > li > a {
+    border-bottom: none;
+    border-top: none;
+    margin-bottom: 0px;
+    width: auto;
+}
+}
+.center-nav nav.navbar.divinnav .navbar-toggle {
+    background-color: #ff3d7a ;
+}
+.center-nav nav.navbar.no-background ul.nav > li > a:hover{
+    background-color: #ff3d7a  !important;
+}
+
+
+
+

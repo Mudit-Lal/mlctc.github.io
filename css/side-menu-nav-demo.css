@@ -1,0 +1,118 @@
+/*------------------------------------------------------------------
+[center-nav-demo Stylesheet]
+
+Project:	Creative Agency - Multipage Html Responsive Template
+Version:	1.1
+Last change:	27/04/2017
+Primary use:	Creative Agency - Multipage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {
+
+
+}
+
+
+.side-menu-nav nav.divinnav.navbar-full .navbar-collapse .wrap-full-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.side-menu-nav nav.navbar.divinnav ul.nav > li > a {
+    
+}
+
+.side-menu-nav nav.navbar ul.nav li.scroll.active > a, .side-menu-nav nav.navbar ul.nav > li > a:hover {
+    color: #fff !important;
+    background-color: #64b8b8   !important;
+}
+
+.side-menu-nav .vertical-heading span {
+    color: #64b8b8  ;
+}
+.side-menu-nav .accordionstyle_1.accordion_2 .panel .panel-heading a, .side-menu-nav .accordionstyle_1.accordion_2 .panel .panel-heading a:hover {
+    background-color: #64b8b8  ;
+}
+.side-menu-nav .icon_box3_simple .simple_sub_circle {
+    background: #64b8b8  ;
+}
+.side-menu-nav #about hr {
+    background: #64b8b8  ;
+}
+.side-menu-nav .icon_box3_simple:hover {
+    background: #64b8b8  ;
+}
+.side-menu-nav .icon_box3_simple:hover .simple_sub_circle {
+    background: #64b8b8  ;
+}
+.side-menu-nav .portfolioTwo .ImageWrapper .ImageOverlay {
+    background: none repeat scroll 0 0 rgba(100, 184, 184, 0.9);
+}
+.side-menu-nav .testimonialEight .item .name {
+    color: #64b8b8  ;
+}
+.side-menu-nav .testimonialEight .carousel .carousel-indicators .active {
+    background-color: #64b8b8   !important;
+}
+.side-menu-nav .dart-headingstyle-four h5 {
+    color: #64b8b8  ;
+}
+.side-menu-nav .fullWidthNine .feature-wrapper h5 {
+    color: #64b8b8  ;
+}
+.side-menu-nav .fullWidthNine .feature-wrapper:hover i {
+    color: #64b8b8  ;
+}
+.side-menu-nav .tabSix .nav-tabs>li.active>a, .side-menu-nav .tabSix .nav-tabs>li.active>a:focus, .side-menu-nav .tabSix .nav-tabs>li.active>a:hover, .side-menu-nav .tabSix .nav-tabs>li>a:hover {
+    border-color: #64b8b8  ;
+}
+.side-menu-nav .button-default {
+    background: #64b8b8  ;
+}
+.side-menu-nav .counter-section i {
+    color: #64b8b8  ;
+}
+.side-menu-nav .packagestyle_one:hover {
+    background: #64b8b8  ;
+}
+.side-menu-nav .btn-link {
+    color: #64b8b8  ;
+}
+
+
+@media (max-width: 992px){
+.side-menu-nav nav.navbar.divinnav .navbar-nav > li > a {
+    border-bottom: none;
+    border-top: none;
+    margin-bottom: 0px;
+    width: auto;
+}
+}
+.side-menu-nav nav.navbar.divinnav .navbar-toggle {
+    background-color: #64b8b8  ;
+}
+.side-menu-nav nav.navbar.no-background ul.nav > li > a:hover{
+    background-color: #64b8b8   !important;
+}
+
+.side-menu-nav .attr-nav > ul > li > a:hover, .side-menu-nav .attr-nav > ul > li > a:focus{
+	color: #64b8b8;
+}
+.side-menu-nav .side {
+    background-color: #64b8b8;
+}
+.side-menu-nav .side .widget ul.link li a{
+    color: #fff;
+}
+.side-menu-nav .side .widget ul.link li a:hover{
+	color:#000;
+	padding-left:10px;
+}
+.side-menu-nav .side .widget ul.link li a i{
+	font-size: 13px;
+    vertical-align: text-top;
+    padding-right: 10px;
+}
+@media (max-width: 992px){
+.side-menu-nav nav.navbar.divinnav .navbar-toggle {
+    float: left;
+}
+}

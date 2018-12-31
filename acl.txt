@@ -1,0 +1,34 @@
+[
+  {
+"entity": "project-owners-123412341234",
+"projectTeam": {
+  "projectNumber": "123412341234",
+  "team": "owners"
+},
+"role": "OWNER"
+  },
+  {
+"entity": "project-editors-123412341234",
+"projectTeam": {
+  "projectNumber": "123412341234",
+  "team": "editors"
+},
+"role": "OWNER"
+  },
+  {
+"entity": "project-viewers-123412341234",
+"projectTeam": {
+  "projectNumber": "123412341234",
+  "team": "viewers"
+},
+"role": "READER"
+  }
+{
+    "entity": "allUsers",
+    "role": "READER"
+  },
+  {
+    "entity": "allAuthenticatedUsers",
+    "role": "READER"
+  }
+]
