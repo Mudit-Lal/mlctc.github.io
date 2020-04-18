@@ -685,7 +685,7 @@ body.on-side .wrap-sticky nav.navbar.divinnav.sticked{
 
     nav.navbar.divinnav.navbar-fixed.navbar-transparent .logo-scrolled,
     nav.navbar.divinnav.navbar-fixed.no-background .logo-scrolled{
-        display: inline;
+        display: none;
     }
 
     nav.navbar.divinnav.navbar-fixed.navbar-transparent .logo-display,
@@ -698,7 +698,7 @@ body.on-side .wrap-sticky nav.navbar.divinnav.sticked{
     }
 
     nav.navbar.divinnav.navbar-fixed .logo-scrolled{
-        display: inline;
+        display: block;
     }
 
     /* Atribute Navigation
@@ -1361,7 +1361,7 @@ body.on-side .wrap-sticky nav.navbar.divinnav.sticked{
     }
 
     nav.navbar.divinnav.navbar-fixed .logo-scrolled{
-        display: inline !important;
+        display: block !important;
     }
 
     nav.navbar.divinnav.navbar-fixed .logo-display{
