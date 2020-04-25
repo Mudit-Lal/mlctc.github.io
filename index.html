@@ -653,7 +653,7 @@
      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://mudit-lal.github.io/mlctc.github.io/submitted/index.html';}"></iframe>
 					<!-- Start the form spanel -->
 					<h2> Submit Your Queries </h2>
-                       <form class="dart-form-8"  action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSeOjz4CJYeNs6RJhBTEI26yEtXdt7eKmWr2lFzgIz3q74gC9A/formResponse" id="get-form" name="contact" method="post" target="hidden_iframe">
+                       <form name="query" class="dart-form-8"  action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSeOjz4CJYeNs6RJhBTEI26yEtXdt7eKmWr2lFzgIz3q74gC9A/formResponse" id="get-form" name="contact" method="post" target="hidden_iframe" onsubmit="return finalvalidate();">
                             <div class="form-inline row">
                                 <div class="form-group col-sm-6">
                                   <input class="form-control" type="text" name="entry.2005620554" placeholder="Your Name">
@@ -754,25 +754,5 @@
 	  ga('create', 'UA-76890900-3', 'auto');
 	  ga('send', 'pageview');
 	</script>
-  <?php // Check if form was submitted:
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
-
-    // Build POST request:
-    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = '6LcBOOwUAAAAAOPwUFhcgRDqz9OUcdC5mqtj1xw3';
-    $recaptcha_response = $_POST['recaptcha_response'];
-
-    // Make and decode POST request:
-    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-    $recaptcha = json_decode($recaptcha);
-
-    // Take action based on the score returned:
-    if ($recaptcha->score >= 0.5) {
-        // Verified - send email
-    } else {
-        // Not verified - show form error
-    }
-
-} ?>
   </body>
 </html>

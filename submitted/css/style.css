@@ -23,7 +23,7 @@ body {
 }
 
 .notfound {
-  max-width: 410px;
+  max-width: 1510px;
   width: 100%;
   text-align: center;
 }
@@ -36,7 +36,7 @@ body {
 
 .notfound .notfound-404 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 230px;
+  font-size: 7em;
   margin: 0px;
   font-weight: 900;
   position: absolute;
@@ -88,7 +88,7 @@ body {
 
 @media only screen and (max-width: 767px) {
     .notfound .notfound-404 {
-      height: 142px;
+      height: 300px;
     }
     .notfound .notfound-404 h1 {
       font-size: 112px;
