@@ -32,6 +32,10 @@ function clientvalidateForm() {
             alert('Invalid Email Address');
             return false;
       }
+      if(!client_registration.terms.checked) {
+      alert("Please accept the Terms and Conditions");
+      return false;
+    }
 
 }
 
