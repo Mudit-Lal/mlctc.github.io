@@ -42,5 +42,6 @@ function finalvalidate(){
   }
   else{
         submitted=true;
+        formObject.reset()
       }
     }
