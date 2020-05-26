@@ -1,22 +1,22 @@
 <?php
 if($_POST!='' && isset($_POST)){
-	
+
 	if($_REQUEST['InputEmail']!='' || $_REQUEST['InputName']!='' || $_REQUEST['InputPhone']!='' || $_REQUEST['InputSub']!='' || $_REQUEST['InputMessage']!='')
 	{
-		$to = "info@mlctc.biz"; 
-		$from = strip_tags($_REQUEST['InputEmail']); 
+		$to = "muditlal02@gmail.com"; 
+		$from = strip_tags($_REQUEST['InputEmail']);
 		$name = strip_tags($_REQUEST['InputName']);
 		$phone = strip_tags($_REQUEST['InputPhone']);
-		$subject = strip_tags($_REQUEST['InputSub']); 
-		$message = strip_tags($_REQUEST['InputMessage']); 
+		$subject = strip_tags($_REQUEST['InputSub']);
+		$message = strip_tags($_REQUEST['InputMessage']);
 		$headers = 'From:'.$from. "\r\n" .
 		'Reply-To:'.$from. "\r\n" .
-		'X-Mailer: PHP/' . phpversion();	
+		'X-Mailer: PHP/' . phpversion();
 		$headers .= 'MIME-Version: 1.0' . "\r\n";
-		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";	
-		
+		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
 		$subject = "You have a message sent from your site";
-		
+
 		$body   = '<html>';
 		$body  .= '<body>';
 		$body  .= 'Hello Webmaster,<br><br>';
@@ -27,9 +27,9 @@ if($_POST!='' && isset($_POST)){
 		$body  .= 'Message: '.$message.'<br>';
 		$body  .= '</body>';
 		$body  .= '</html>';
-			
+
 		$send = @mail($to, $subject, $body, $headers);
-		
+
 		if($send == true)
 		{
 			header('location:index.html#success');
@@ -42,6 +42,6 @@ if($_POST!='' && isset($_POST)){
 	else
 	{
 		header('location:index.html#data-missing');
-	}		
+	}
 }
 ?>

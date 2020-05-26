@@ -658,39 +658,34 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                 	<div class="form_panel">
-                    <script type="text/javascript">var submitted=false;</script>
-     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://mudit-lal.github.io/mlctc.github.io/submitted/index.html';}"></iframe>
 					<!-- Start the form spanel -->
 					<h2> Submit Your Queries </h2>
-                       <form name="query" class="dart-form-8"  action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSeOjz4CJYeNs6RJhBTEI26yEtXdt7eKmWr2lFzgIz3q74gC9A/formResponse" id="get-form" name="contact" method="post" target="hidden_iframe" onsubmit="return finalvalidate();">
-                            <div class="form-inline row">
-                                <div class="form-group col-sm-6">
-                                  <input class="form-control" type="text" name="entry.2005620554" placeholder="Your Name">
-                                </div>
-                                <div class="form-group col-sm-6">
-                                  <input class="form-control" type="email" name="entry.1045781291" placeholder="Email Address">
-                                </div>
-                            </div>
-                            <div class="form-inline row">
-                                <div class="form-group col-sm-6">
+          <form class="dart-form-8"  action="send_email.php" id="get-form" name="contact" method="post" >
+               <div class="form-inline row">
+                   <div class="form-group col-sm-6">
+                     <input class="form-control" type="name" name="InputName" placeholder="Your Name">
+                   </div>
+                   <div class="form-group col-sm-6">
+                     <input class="form-control" type="email" name="InputEmail" placeholder="Email Address">
+                   </div>
+               </div>
+               <div class="form-inline row">
+                   <div class="form-group col-sm-6">
 
-                                  <input class="form-control" type="tel" name="entry.1166974658" placeholder="Phone Number">
-                                </div>
-                                <div class="form-group col-sm-6">
+                     <input class="form-control" type="tel" name="InputPhone" placeholder="Phone Number">
+                   </div>
+                   <div class="form-group col-sm-6">
 
-                                  <input class="form-control" type="subject" name="entry.288240117" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="row">
-                                    <div class="form-group col-lg-12 col-xs-12">
-
-                                       <textarea class="form-control form-control-multiline" rows="7" name="entry.839337160" placeholder="Query"></textarea>
-                                    </div>
-                            </div>
-                            <input type="checkbox" name="terms" id="terms_conditions" class="custom-control-input" value="1" required>
-                            <input type="hidden" name="recaptcha_response" id="recaptchaResponse"><label class="custom-control-label" for="terms_conditions" name="agree">By checking this option, you agree to accept the <a href="#">Terms and Conditions</a>.</label>
-                            <button type="submit" class="btn button-default">Submit Now</button>
-                      </form>
+                     <input class="form-control" type="subject" name="InputSub" placeholder="Subject">
+                   </div>
+               </div>
+               <div class="row">
+                       <div class="form-group col-lg-12 col-xs-12">
+                          <textarea class="form-control form-control-multiline" rows="7" name="InputMessage" placeholder="Message"></textarea>
+                       </div>
+               </div>
+               <button type="submit" class="btn button-default">Submit Now</button>
+         </form>
                 	</div>
                 </div><!-- end of form spanel -->
             </div>
